@@ -141,14 +141,14 @@ class SalesModel:
             preds_arima,conf_int_arima=self._auto_arima_model(X_train, X_test)
             self._store_results('ARIMA', cnt, X_test[self.target_col], preds_arima)
             print(mean_squared_error(X_test[self.target_col], preds_arima))
-            print('ARIMA',self.score(preds_arima, X_test[self.target_col]))
+            print('ARIMA',self.score(X_test[self.target_col],preds_arima))
             self.plot(preds_arima, X_test[self.target_col], 'ARIMA',conf_int_arima)
             
             # ETS
             preds_ets=self._ets_model(X_train, X_test)
             self._store_results('ETS', cnt, X_test[self.target_col], preds_ets)
             print(mean_squared_error(X_test[self.target_col], preds_ets))
-            print('ETS',self.score(preds_ets, X_test[self.target_col]))
+            print('ETS',self.score(X_test[self.target_col],preds_ets ))
             self.plot(preds_ets, X_test[self.target_col], 'ETS')
             
             
@@ -174,7 +174,7 @@ class SalesModel:
             preds_xgb =self._xgboost_model(X_train, X_test)
             self._store_results('XGB', cnt, X_test[self.target_col], preds_xgb)
             print(mean_squared_error(X_test[self.target_col], preds_xgb))
-            print('XGB',self.score(preds_xgb, X_test[self.target_col]))    
+            print('XGB',self.score(X_test[self.target_col],preds_xgb))    
             self.plot(preds_xgb, X_test[self.target_col], 'XGB')
             
             #Light GBM to come up with efficient inference 
@@ -597,7 +597,7 @@ class SalesModel:
         
         #RF {'max_depth': 6, 'min_samples_leaf': 7, 'min_samples_split': 2, 'n_estimators': 500}
         
-        model = RandomForestRegressor(n_estimators=500,max_depth=6,min_samples_split=2,min_samples_leaf=7,n_jobs=-1)               
+        model = RandomForestRegressor(n_estimators=500,max_depth=6,min_samples_split=2,min_samples_leaf=7,random_state=42,n_jobs=-1)               
         # regularization: limit depth
         # regularization: minimum samples to split
         # regularization: minimum samples at l
