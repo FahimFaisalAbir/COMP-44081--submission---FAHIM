@@ -1,0 +1,27 @@
+# Time Series Forecasting for Ferry Ticket Sales and Redemptions
+
+## Approach and Summary of Methods
+
+- Analyzed past ticket sales and redemptions to discover patterns related to seasons, holidays, and special events.
+- Built two predictive models:
+  - One for forecasting future ticket sales.
+  - One for predicting how many tickets will actually be redeemed or scanned.
+- Developed a redemption model to explore trends across multiple seasons and to analyze customer engagement and turnout.
+- Used trends and seasonal spikes in historical redemption data, along with additional time-based features, to predict recurring sales increases.
+- Transitioned from simple statistical methods to advanced machine learning approaches to better capture long-term trends and busy periods.
+- Cleaned and enhanced the dataset by removing outliers and focusing on learning from past seasonal patterns, holidays, and special events.
+
+## Why This Approach Is Better
+
+- Machine learning methods improved forecast accuracy by:
+  - **44–50%** for the Sales Model, supporting better resource optimization (e.g., ferry scheduling, seat allocation).
+  - **57–57.84%** for the Redemption Model, aiding in smarter promotions and improved customer satisfaction by understanding customer behavior.
+- Smarter forecasting leads to better planning, happier customers, and more efficient operations.
+
+## Environment
+
+You will need to install several packages to run the existing code
+
+```python
+pip install pandas numpy scikit-learn matplotlib xgboost lightgbm pmdarima prophet torch pytorch-lightning pytorch-forecasting
+```
