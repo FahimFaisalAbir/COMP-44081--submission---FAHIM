@@ -18,6 +18,20 @@
   - **57–57.84%** for the Redemption Model, aiding in smarter promotions and improved customer satisfaction by understanding customer behavior.
 - Smarter forecasting leads to better planning, happier customers, and more efficient operations.
 
+## Detailed techincal summary 
+A more detailed description in standard prose titled "Technical Summary" is avaliable in microsoft word format. Please review that detailed summary for in-depth understanding of the work.   
+
+## Code structure
+- Sales model
+    - Model.py (main model)
+    - EnsembleModelRedemption.py (Ensemble of tree based models)
+    - Modeling-v7.0 Sales model-Final.ipynb
+
+- Redemption model
+  -  SalesModel.py (main model)
+  -  EnsembleModelSales.py (Ensemble of tree based models)
+  -  Modeling-v7.0 Redemption model-Final.ipynb 
+
 ## Environment
 
 You will need to install several packages to run the existing code
