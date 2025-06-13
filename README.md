@@ -9,7 +9,7 @@
 - Developed a redemption model to explore trends across multiple seasons and to analyze customer engagement and turnout.
 - Used trends and seasonal spikes in historical redemption data, along with additional time-based features, to predict recurring sales increases.
 - Transitioned from simple statistical methods to advanced machine learning approaches to better capture long-term trends and busy periods.
-- Cleaned and enhanced the dataset by removing outliers and focusing on learning from past seasonal patterns, holidays, and special events.
+- Cleaned and enhanced the dataset by removing outliers , extracting additional indicators and focusing on learning from past seasonal patterns, holidays, and special events.
 
 ## Why This Approach Is Better
 
