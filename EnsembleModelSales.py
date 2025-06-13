@@ -32,7 +32,7 @@ class EnsembleModelSales:
                                                  random_state=42),
         
             
-            'RandomForest': RandomForestRegressor(n_estimators=500,max_depth=6,min_samples_split=2,min_samples_leaf=7,n_jobs=-1)
+            'RandomForest': RandomForestRegressor(n_estimators=500,max_depth=6,min_samples_split=2,min_samples_leaf=7,n_jobs=-1,random_state=42)
         }
 
     def fit(self, X_train, y_train):
