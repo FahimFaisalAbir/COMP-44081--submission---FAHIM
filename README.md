@@ -24,12 +24,12 @@ A more detailed description in standard prose titled "Technical Summary" is avai
 ## Code structure
 - Sales model
     - Model.py (main model)
-    - EnsembleModelRedemption.py (Ensemble of tree based models)
+    - EnsembleModelSales.py (Ensemble of tree based models)
     - Modeling-v7.0 Sales model-Final.ipynb
 
 - Redemption model
   -  SalesModel.py (main model)
-  -  EnsembleModelSales.py (Ensemble of tree based models)
+  -  EnsembleModelRedemption.py (Ensemble of tree based models)
   -  Modeling-v7.0 Redemption model-Final.ipynb 
 
 ## Environment
