@@ -19,7 +19,7 @@
 - Smarter forecasting leads to better planning, happier customers, and more efficient operations.
 
 ## Detailed technical summary 
-A more detailed description in standard prose titled "Technical Summary" is avaliable in Microsoft Word format. Please review that detailed summary for in-depth understanding of the work.   
+A more detailed description in standard prose titled "Technical Summary" is available in Microsoft Word format. Please review that detailed summary for in-depth understanding of the work.   
 
 ## Code structure
 - Sales model
