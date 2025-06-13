@@ -1,6 +1,6 @@
 # Time Series Forecasting for Ferry Ticket Sales and Redemptions
 
-## Approach and Summary of Methods
+## Business approach and Summary of Methods
 
 - Analyzed past ticket sales and redemptions to discover patterns related to seasons, holidays, and special events.
 - Built two predictive models:
@@ -11,9 +11,9 @@
 - Transitioned from simple statistical methods to advanced machine learning approaches to better capture long-term trends and busy periods.
 - Cleaned and enhanced the dataset by removing outliers , extracting additional indicators and focusing on learning from past seasonal patterns, holidays, and special events.
 
-## Why This Approach Is Better
+## Why this approach is better
 
-- Machine learning methods improved forecast accuracy by:
+- Machine learning methods improved empiricial forecast accuracy by:
   - **44–50%** for the Sales Model, supporting better resource optimization (e.g., ferry scheduling, seat allocation).
   - **57–57.84%** for the Redemption Model, aiding in smarter promotions and improved customer satisfaction by understanding customer behavior.
 - Smarter forecasting leads to better planning, happier customers, and more efficient operations.
