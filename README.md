@@ -13,7 +13,7 @@
 
 ## Why this approach is better
 
-- Machine learning methods improved empiricial forecast accuracy by:
+- Machine learning methods improved empirical forecast accuracy by:
   - **44–50%** for the Sales Model, supporting better resource optimization (e.g., ferry scheduling, seat allocation).
   - **57–57.84%** for the Redemption Model, aiding in smarter promotions and improved customer satisfaction by understanding customer behavior.
 - Smarter forecasting leads to better planning, happier customers, and more efficient operations.
