@@ -23,5 +23,5 @@
 You will need to install several packages to run the existing code
 
 ```python
-pip install pandas numpy scikit-learn matplotlib xgboost lightgbm pmdarima prophet torch pytorch-lightning pytorch-forecasting
+pip install pandas numpy scikit-learn matplotlib xgboost lightgbm pmdarima prophet 
 ```
